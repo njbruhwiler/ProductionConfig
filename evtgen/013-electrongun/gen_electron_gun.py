@@ -19,7 +19,7 @@ from pyLCIO import UTIL, EVENT, IMPL, IO, IOIMPL
 #---- number of events ----------------------
 nevt = 100000
 
-outfile = "electronGun_gen.slcio"
+outfile = "muonGun_gen.slcio"
 
 #--------------------------------------------
 
@@ -36,12 +36,12 @@ random.seed()
 # particles per event
 npart = 1
 
-pdg = 11
+pdg = 13
 
-mass =  0.00051099895
+mass = 0.1056583755
 charge = -1.
 
-decayLen = 1.e32
+decayLen = 2.1969811e-6
 
 genstat  = 1
 
